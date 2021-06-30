@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%%;
+    width: 60%;
     height: 100vh;
 } 
 
@@ -90,13 +90,32 @@ body {
     color: rgb(249, 249, 249);
     border: none;
 }
+
+#divisor {
+    color: gray;
+    margin: 1rem;
+}
+
 #logar-facebook {
     color: #385185;
     border: none;
-    background-color: none;
-    align-items: center;
-    justify-items: center;
+    display: flex;
+    margin-bottom: 0.75rem;
+    align-items: flex-start;
 }
+
+#logar-facebook a {
+    font-size: 16px;
+}
+
+#facebook-logo {
+   height: 14px;
+   width: 14px;
+   margin-right: 0.5rem;
+}
+
+
+
 
 
 
