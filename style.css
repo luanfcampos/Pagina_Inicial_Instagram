@@ -22,7 +22,6 @@ body {
     align-items: center;
     justify-content: start;
     width: 60%;
-    height: 100vh;
 } 
 
 .smartphone {
@@ -56,6 +55,7 @@ body {
     width: 90%;
     padding: 1.3rem 0;
     border: 1px solid lightgrey;
+    margin: 1rem;
 }
 
 .grupo:nth-child(1) {
@@ -120,6 +120,61 @@ body {
     font-weight: 500;
 }
 
+.lojas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 100%;
+    
+}
+
+.lojas {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.baixar {
+    margin-bottom: 1rem;
+}
+
+.app-download img{
+    height: 3rem;
+    width: auto;
+}
+
+/* media queries */
+
+@media (max-width: 1300px) {
+    .principal {
+        width: 90%;
+    }
+}
+
+@media (max-width: 850px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .principal {
+        width: 90%;
+    }
+
+    .smartphone {
+        display: none;
+    }
+
+    .interacoes {
+        width: 100%;
+    }
+    
+    .grupo {
+        border: 1px solid transparent;
+    }
+}
 
 
 
