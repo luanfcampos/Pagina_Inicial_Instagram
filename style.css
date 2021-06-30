@@ -99,10 +99,8 @@ body {
 #logar-facebook {
     color: #385185;
     border: none;
-    display: flex;
-    flex-direction: row;
     margin-bottom: 0.75rem;
-    vertical-align: center;
+    justify-content: center;
 }
 
 #logar-facebook a {
@@ -114,6 +112,7 @@ body {
    height: 14px;
    width: 14px;
    margin-right: 0.5rem;
+   
 }
 
 .nova-conta a {
